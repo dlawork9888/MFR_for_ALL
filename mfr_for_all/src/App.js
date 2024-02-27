@@ -6,6 +6,7 @@ import circlegif_white from './images/circlegif_white.gif'
 
 function App() {
   return (
+// full screen
     <div 
       style={{ 
         backgroundColor: '#000000',
@@ -25,6 +26,7 @@ function App() {
           width:'40%'
         }}
       />
+{/*MFR_for_ALL Logo close*/}
 
 {/*comingsoon image*/}
       <div
@@ -51,7 +53,41 @@ function App() {
           }}
         />
       </div>
+{/*comingsoon image close*/}
+
+{/* footer*/}
+      <div
+        style={{
+          //backgroundColor: '#FFFFFF',
+          position: 'absolute', // 절대 위치
+          bottom: 0, 
+          width: '100%', 
+          display: 'flex', // Flexbox 
+          justifyContent: 'space-between', //
+        }}
+      >
+        <div
+          style={{
+            color: '#DDDDDD',
+            marginLeft: 20,
+            marginBottom:5,
+          }}
+        >
+          (will be) Powered By TGLIM
+        </div>
+        <div
+          style={{
+            color: '#DDDDDD',
+            marginRight: 20,
+            marginBottom:5,
+          }}
+        >
+          github.com/dlawork9888
+        </div>
+      </div>
+{/* footer close*/}
     </div>
+// full screen close
   );
 }
 
