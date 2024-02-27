@@ -1,0 +1,4 @@
+# 상단바 제거
+[browser]
+gatherUsageStats = false
+showSidebar = false
