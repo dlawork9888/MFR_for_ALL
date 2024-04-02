@@ -23,7 +23,7 @@ function App() {
         src={MFRforALLLogo} 
         alt="MFR for ALL Logo" 
         style={{
-          width:'40%'
+          width:400
         }}
       />
 {/*MFR_for_ALL Logo close*/}
@@ -41,15 +41,15 @@ function App() {
         <img
           src={circlegif_white}
           style={{
-            width:'4%',
-            marginRight:'1%'
+            width:40,
+            marginRight:5
           }}
         />
         <img
           src={comingsoon}
           alt='Coming Soon ...'
           style={{
-            width:'40%'
+            height:60
           }}
         />
       </div>
@@ -67,19 +67,21 @@ function App() {
         }}
       >
         <div
+          className = 'AppText'
           style={{
             color: '#DDDDDD',
-            marginLeft: 20,
-            marginBottom:5,
+            marginLeft: 10,
+            marginBottom:10,
           }}
         >
           (will be) Powered By TGLIM
         </div>
         <div
+          className = 'AppText'
           style={{
             color: '#DDDDDD',
-            marginRight: 20,
-            marginBottom:5,
+            marginRight:10,
+            marginBottom:10,
           }}
         >
           github.com/dlawork9888
